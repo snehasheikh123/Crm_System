@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #4a148c;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+form {
+    max-width: 500px; /* Increased width */
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px; /* Adjusted padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #4a148c;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px; /* Increased padding for better spacing */
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="datetime-local"] {
+    padding-left: 12px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 12px; /* Slightly increased padding */
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a1b9a;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+p.success {
+    color: green;
+}
+
+p.error {
+    color: red;
+}
+
+/* Back Link Styling */
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4a148c;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.back-link i {
+    margin-right: 6px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

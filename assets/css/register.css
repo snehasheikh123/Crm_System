@@ -1,0 +1,109 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right bottom, #f0f4ff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Registration Box */
+  .auth-box {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+  }
+  
+  .auth-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  /* Input Fields */
+  .auth-box input[type="text"],
+  .auth-box input[type="email"],
+  .auth-box input[type="password"] {
+    width: 100%;
+    padding: 14px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-box input:focus {
+    border-color: #1a73e8;
+    outline: none;
+    box-shadow: 0 0 6px rgba(26, 115, 232, 0.2);
+  }
+  
+  /* Submit Button */
+  .auth-box button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-box button:hover {
+    background-color: #1669d4;
+  }
+  
+  /* Error Message */
+  .error-box {
+    background-color: #fff2f2;
+    border: 1px solid #ffcccc;
+    color: #b00020;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  /* Link Text */
+  .auth-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .auth-box a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-box a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .auth-box {
+      padding: 30px 20px;
+    }
+  }
+  
